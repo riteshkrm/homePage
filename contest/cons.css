@@ -1,15 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-}
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
 }
 
 header {
@@ -48,40 +40,36 @@ nav {
     color: #61dafb;
 }
 
-.container {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    width: 300px;
-    max-width: 100%;
+main {
     padding: 20px;
 }
 
-h1 {
-    color: #333;
+.countdown {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-input {
-    width: 100%;
+.countdown h2 {
+    color: #333;
+}
+
+.contests {
+    margin-top: 20px;
+}
+
+.contests h2 {
+    color: #333;
+}
+
+.contests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contests li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
     padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #45a049;
 }
 
 footer {
@@ -95,7 +83,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .nav-links {
+    .nav-links{
         display: none;
     }
 
