@@ -1,9 +1,8 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 section{
@@ -64,23 +63,18 @@ h1 {
     text-align: center;
 }
 
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
 input {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
+    padding: 10px;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 
 button {
     background-color: #4caf50;
     color: #fff;
-    padding: 10px;
     border: none;
+    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
